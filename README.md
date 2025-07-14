@@ -6,6 +6,7 @@ Here's a fully upgraded version of the Bitbucket analytics script that:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;✅ Counts commits, additions, deletions per user<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;✅ Breaks down data per repository<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;✅ Runs in parallel using concurrent.futures for speed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Exclude merged pull requests or branch merges
 <br/>
 # Performance Tips:
 &nbsp;&nbsp;&nbsp;&nbsp;✅ max_workers=5 → Adjust to your system or API rate limits.<br/>
